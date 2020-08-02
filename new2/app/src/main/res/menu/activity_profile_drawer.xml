@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_payment" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share and Earn" />
+            <item
+                android:id="@+id/buttonLogout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/sign_out"
+                android:background="@drawable/button" />
+
+        </menu>
+    </item>
+
+    <item android:title="Connect">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:title="Contact Us"
+                android:icon="@drawable/fui_ic_check_circle_black_128dp"/>
+        </menu>
+    </item>
+
+</menu>

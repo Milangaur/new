@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "67414969674",
+    "firebase_url": "https://new2-f2ffc.firebaseio.com",
+    "project_id": "new2-f2ffc",
+    "storage_bucket": "new2-f2ffc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67414969674:android:8144c3f96cb83ff0c645b3",
+        "android_client_info": {
+          "package_name": "com.example.new2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67414969674-0b2q23n8j7ur3h52d84tts1cu64l8kap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5HYY6j0Au10S_EuGswiSQ4r2nKGuv1zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67414969674-0b2q23n8j7ur3h52d84tts1cu64l8kap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
